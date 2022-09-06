@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  padding: 4rem 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0051ad;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px;
+  padding: 0;
+  margin: 10px;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 100%;
+  background-color: #8abefa;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu button {
+  width: 100%;
+  height: 30px;
+  background-color: #751818;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
